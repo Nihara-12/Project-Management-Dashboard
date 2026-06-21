@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://project-management-dashboard-fod3.onrender.com",
+  baseURL: "https://project-management-dashboard-fod3.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
