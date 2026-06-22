@@ -23,8 +23,8 @@ Data Persistence
 
 This project is deployed using:
 
-* Frontend: Vercel
-* Backend: Render
+* Frontend: Vercel (https://project-management-dashboard-8qcdgrmrf-nihara-12s-projects.vercel.app/login)
+* Backend: Render  (https://project-management-dashboard-fod3.onrender.com)
 * Database: MongoDB Atlas
 
 ### Important Note
