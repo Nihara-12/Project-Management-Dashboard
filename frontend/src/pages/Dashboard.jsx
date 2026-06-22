@@ -92,7 +92,13 @@ function Dashboard() {
   };
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div
+  style={{
+    padding: "30px",
+    maxWidth: "1400px",
+    margin: "auto",
+  }}
+>
       <h1>Project Management Dashboard</h1>
 
       <button onClick={logout}>
@@ -150,7 +156,10 @@ function Dashboard() {
                     style={{
                       flex: 1,
                       minHeight: "500px",
-                      border: "2px solid #ccc",
+                      background: "#f8fbff",
+borderRadius: "16px",
+boxShadow:
+  "0 4px 12px rgba(59,130,246,0.08)", cursor:"grab",
                       borderRadius: "10px",
                       padding: "10px",
                     }}
